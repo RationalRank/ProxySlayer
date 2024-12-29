@@ -29,9 +29,10 @@ adb shell pm grant dev.ranjith.proxyslayer android.permission.WRITE_SECURE_SETTI
 
 ## ProxyMan Helper Functions
 For developers using ProxyMan, you can add these helper bash functions to quickly enable/disable proxy:
-<script src="https://gist.github.com/RationalRank/380017672f2bec6a19c0e5e89de565ab.js"></script>
+[![Link to gist](https://gist.githubusercontent.com/RationalRank/380017672f2bec6a19c0e5e89de565ab/raw/adb_proxy_settings.sh)](https://gist.github.com/RationalRank/380017672f2bec6a19c0e5e89de565ab)
+
 
 Add these functions to your .zshrc or .bashrc to use commands like:
-`enable_proxy` - Turn on ProxyMan proxy
-`disable_proxy` - Turn off proxy
-`toggle_proxy` - Toggle between on/off states
+- `enable_proxy` - Turn on ProxyMan proxy
+- `disable_proxy` - Turn off proxy
+- `toggle_proxy` - Toggle between on/off states
